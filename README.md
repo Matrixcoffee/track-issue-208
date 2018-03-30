@@ -44,7 +44,7 @@ $ python3 trackissue208.py --help
 And take it from there. Run it daily from cron or something. Good luck.
 
 ## Getting help
-If you have questions, contact @Matrixcoffee, [@Coffee:matrix.org], or
+If you have questions, open an issue, contact [@Coffee:matrix.org], or
 tentatively ask in [#irc:matrix.org].
 
 [@Coffee:matrix.org]: https://matrix.to/#/@Coffee:matrix.org
