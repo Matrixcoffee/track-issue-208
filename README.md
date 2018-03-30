@@ -1,5 +1,5 @@
 # Track issue 208
-Track changes in the body text of the [network wishlist issue].
+Track changes in the body text of the [matrix-appservice-irc] [network wishlist issue].
 
 ## What is this?
 1. The [network wishlist issue] in repository form.
@@ -16,6 +16,7 @@ abusing GitHub issues in a way they're not meant to, and it would be much
 better to use something that has first class support for edit history. But why
 argue when you can code?
 
+[matrix-appservice-irc]:  https://github.com/matrix-org/matrix-appservice-irc
 [network wishlist issue]: https://github.com/matrix-org/matrix-appservice-irc/issues/208
 [wiki]:                   https://github.com/matrix-org/matrix-appservice-irc/wiki/Bridged-IRC-networks
 
