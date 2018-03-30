@@ -33,7 +33,7 @@ $ git clone https://github.com/matrix-org/track-issue-208.git
 Should the script fail because your Python installation is missing socks
 support, you can add it to your project like so:
 ```
-$ wget -P track-issue-208 -requests-adapter https://github.com/Anorov/PySocks/raw/master/socks.py
+$ wget -P track-issue-208 https://github.com/Anorov/PySocks/raw/master/socks.py
 ```
 Your first run:
 ```
@@ -43,8 +43,8 @@ $ python3 trackissue208.py --help
 And take it from there. Run it daily from cron or something. Good luck.
 
 ## Getting help
-If you have questions, contact [@Coffee:matrix.org], or tentatively ask in
-[#irc:matrix.org].
+If you have questions, contact @Matrixcoffee, [@Coffee:matrix.org], or
+tentatively ask in [#irc:matrix.org].
 
 [@Coffee:matrix.org]: https://matrix.to/#/@Coffee:matrix.org
 [#irc:matrix.org]:    https://matrix.to/#/#irc:matrix.org
