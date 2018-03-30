@@ -1,5 +1,5 @@
 # Track issue 208
-Track changes in the body text of matrix-org/matrix-appservice-irc#208
+Track changes in the body text of the [network wishlist issue].
 
 ## What is this?
 1. The [network wishlist issue] in repository form.
