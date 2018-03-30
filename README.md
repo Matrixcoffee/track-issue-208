@@ -12,7 +12,7 @@ problem in particular, since we can _see_ when it has been edited, but we can't
 see _what_ changed so we can update the information in the [wiki], for example.
 
 One could argue that keeping track of all that information in a GitHub issue is
-abusing GitHub issues in a way they're not supposed to, and it would be much
+abusing GitHub issues in a way they're not meant to, and it would be much
 better to use something that has first class support for edit history. But why
 argue when you can code?
 
@@ -20,10 +20,10 @@ argue when you can code?
 [wiki]:                   https://github.com/matrix-org/matrix-appservice-irc/wiki/Bridged-IRC-networks
 
 ## Status
-**Alpha** This is a single-purpose hack and that's all it needs to be.
+**Alpha**: This is a single-purpose hack and that's all it needs to be.
 
 ## Installation
-First of all, you don't need to install anything if you just want to [look at the issue history][208.md]. Click [here](208.md) to see it.
+First of all, you don't need to install anything if you just want to [look at the issue history](208.md). Click [here](208.md) to see it.
 
 If you want to keep track of the changes yourself, however:
 ```
@@ -35,12 +35,12 @@ support, you can add it to your project like so:
 ```
 $ wget -P track-issue-208 -requests-adapter https://github.com/Anorov/PySocks/raw/master/socks.py
 ```
-First Run:
+Your first run:
 ```
 $ cd track-issue-208
 $ python3 trackissue208.py --help
 ```
-Run it from cron every day or something. Good luck.
+And take it from there. Run it daily from cron or something. Good luck.
 
 ## Getting help
 If you have questions, contact [@Coffee:matrix.org], or tentatively ask in
