@@ -6,23 +6,26 @@ Track changes in the body text of matrix-org/matrix-appservice-irc#208
 2. Infrastructure to keep (1) up-to-date.
 
 ## Why does it exist?
-GitHub does not expose edit history for issues. For people working with the
-[network wishlist issue] this is a problem in particular, since we can _see_
-when it has been edited, but we can't see _what_ changed so we can update the
-information in the [wiki], for example.
+GitHub does not expose edit history for issue text (or comment text in
+general). For people working with the [network wishlist issue] this is a
+problem in particular, since we can _see_ when it has been edited, but we can't
+see _what_ changed so we can update the information in the [wiki], for example.
 
 One could argue that keeping track of all that information in a GitHub issue is
 abusing GitHub issues in a way they're not supposed to, and it would be much
 better to use something that has first class support for edit history. But why
 argue when you can code?
 
-[network wishlist issue]: https://github.com/matrix-org/matrix-appservice-irc/issue/208
+[network wishlist issue]: https://github.com/matrix-org/matrix-appservice-irc/issues/208
 [wiki]:                   https://github.com/matrix-org/matrix-appservice-irc/wiki/Bridged-IRC-networks
 
 ## Status
 **Alpha** This is a single-purpose hack and that's all it needs to be.
 
 ## Installation
+First of all, you don't need to install anything if you just want to [look at the issue history][208.md]. Click [here](208.md) to see it.
+
+If you want to keep track of the changes yourself, however:
 ```
 $ cd $SOMEWHERE
 $ git clone https://github.com/matrix-org/track-issue-208.git
@@ -37,6 +40,7 @@ First Run:
 $ cd track-issue-208
 $ python3 trackissue208.py --help
 ```
+Run it from cron every day or something. Good luck.
 
 ## Getting help
 If you have questions, contact [@Coffee:matrix.org], or tentatively ask in
